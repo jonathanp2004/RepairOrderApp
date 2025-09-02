@@ -11,18 +11,20 @@
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="$0.0"
+        android:text="@string/_0_0"
         android:textSize="12sp"
-        tools:layout_editor_absoluteX="287dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
         tools:layout_editor_absoluteY="657dp" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="$0.0"
+        android:text="@string/_0_0"
         android:textSize="12sp"
-        tools:layout_editor_absoluteX="287dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
         tools:layout_editor_absoluteY="686dp" />
 
     <EditText
@@ -33,7 +35,6 @@
         android:layout_marginEnd="60dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText5" />
@@ -46,7 +47,6 @@
         android:layout_marginEnd="60dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText4" />
@@ -59,7 +59,6 @@
         android:layout_marginEnd="60dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
@@ -72,7 +71,6 @@
         android:layout_marginEnd="60dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText3" />
@@ -84,7 +82,6 @@
         android:layout_marginEnd="60dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         tools:layout_editor_absoluteY="186dp" />
@@ -96,7 +93,7 @@
         android:layout_marginStart="36dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="labor"
+        android:text="@string/labor"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/editTextText6"
         app:layout_constraintEnd_toStartOf="@+id/editTextText6"
@@ -110,7 +107,7 @@
         android:layout_marginStart="36dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Parts"
+        android:text="@string/parts"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/editTextText5"
         app:layout_constraintEnd_toStartOf="@+id/editTextText5"
@@ -124,7 +121,7 @@
         android:layout_marginStart="36dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Inspection"
+        android:text="@string/inspection"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/editTextText3"
         app:layout_constraintEnd_toStartOf="@+id/editTextText3"
@@ -136,7 +133,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:text="Paint"
+        android:text="@string/paint"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/editTextText4"
         tools:layout_editor_absoluteX="46dp" />
@@ -146,16 +143,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:text="Technitian"
+        android:text="@string/technitian"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/editTextText2"
         tools:layout_editor_absoluteX="47dp" />
+
 
     <TextView
         android:id="@+id/repairOrder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Repair Order"
+        android:text="@string/repair_order"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -163,13 +161,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.053" />
 
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:text="Order Type"
+        android:text="@string/order_type"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/editTextText"
         tools:layout_editor_absoluteX="46dp" />
@@ -182,16 +179,18 @@
         android:layout_marginBottom="16dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:text="@string/name"
         android:textSize="14sp"
         app:layout_constraintBottom_toTopOf="@+id/editTextText2"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="53dp"
         android:layout_height="17dp"
-        android:text="Tax"
+        android:text="@string/tax"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/textView2"
@@ -202,7 +201,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="12dp"
-        android:text="Subtotal"
+        android:text="@string/subtotal"
         app:layout_constraintBottom_toTopOf="@+id/textView3"
         tools:layout_editor_absoluteX="185dp" />
 
@@ -212,7 +211,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="8dp"
-        android:text="Total"
+        android:text="@string/total"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textView3"
@@ -222,7 +221,7 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="@string/textview"
         tools:layout_editor_absoluteX="165dp"
         tools:layout_editor_absoluteY="82dp" />
 
@@ -230,9 +229,21 @@
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="$0.0"
+        android:text="@string/_0_0"
         android:textSize="12sp"
-        tools:layout_editor_absoluteX="287dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
         tools:layout_editor_absoluteY="623dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:text="@string/button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
