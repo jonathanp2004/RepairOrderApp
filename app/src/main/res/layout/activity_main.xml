@@ -9,7 +9,7 @@
     //removed hardcoded values and replaced with string resources
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/taxOut"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_0_0"
@@ -19,12 +19,13 @@
         tools:layout_editor_absoluteY="657dp" />
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/totalType"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_0_0"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.561"
         app:layout_constraintStart_toEndOf="@+id/totalLabel"
         tools:layout_editor_absoluteY="686dp" />
 
@@ -226,7 +227,7 @@
         tools:layout_editor_absoluteY="82dp" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/subtotalIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_0_0"
